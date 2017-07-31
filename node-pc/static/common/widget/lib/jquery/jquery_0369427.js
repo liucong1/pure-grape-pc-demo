@@ -1,0 +1,1 @@
+define("common:widget/lib/jquery/jquery.js",function(require,exports,module){"use strict";var $=require("common:widget/lib/jquery/jquery.1.9.1.js");require("common:widget/lib/jquery/jquery.validate.js"),$.ajaxSetup({cache:!1}),module.exports=$});

@@ -1,0 +1,262 @@
+{
+    "res": {
+        "common:page/layout.js": {
+            "uri": "/ps/static/common/page/layout_1d2d890.js",
+            "type": "js",
+            "deps": [
+                "common:node_modules/html5shiv/dist/html5shiv.js",
+                "common:node_modules/es5-shim/es5-shim.js",
+                "common:node_modules/es5-shim/es5-sham.js",
+                "common:node_modules/matchmedia-polyfill/matchMedia.js",
+                "common:widget/lib/classList/classList.js",
+                "common:widget/lib/console-polyfill/console-polyfill.js",
+                "common:node_modules/bluebird/js/browser/bluebird.js"
+            ]
+        },
+        "common:node_modules/html5shiv/dist/html5shiv.js": {
+            "uri": "/ps/static/nm/html5shiv/dist/html5shiv.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/html5shiv/dist/html5shiv"
+            },
+            "pkg": "common:p0"
+        },
+        "common:node_modules/es5-shim/es5-shim.js": {
+            "uri": "/ps/static/nm/es5-shim/es5-shim.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/es5-shim/es5-shim"
+            },
+            "pkg": "common:p0"
+        },
+        "common:node_modules/es5-shim/es5-sham.js": {
+            "uri": "/ps/static/nm/es5-shim/es5-sham.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/es5-shim/es5-sham"
+            },
+            "pkg": "common:p0"
+        },
+        "common:node_modules/matchmedia-polyfill/matchMedia.js": {
+            "uri": "/ps/static/nm/matchmedia-polyfill/matchMedia.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/matchmedia-polyfill/matchMedia"
+            },
+            "pkg": "common:p0"
+        },
+        "common:node_modules/bluebird/js/browser/bluebird.js": {
+            "uri": "/ps/static/nm/bluebird/js/browser/bluebird.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/bluebird/js/browser/bluebird"
+            },
+            "deps": [
+                "common:node_modules/process/browser.js"
+            ],
+            "pkg": "common:p0"
+        },
+        "common:node_modules/process/browser.js": {
+            "uri": "/ps/static/nm/process/browser.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/process/browser"
+            },
+            "pkg": "common:p0"
+        },
+        "common:static/css/reset.scss": {
+            "uri": "/ps/static/common/static/css/reset_8552da2.css",
+            "type": "css"
+        },
+        "common:static/css/ui/util.css": {
+            "uri": "/ps/static/common/static/css/ui/util_245806d.css",
+            "type": "css"
+        },
+        "common:static/css/layout.scss": {
+            "uri": "/ps/static/common/static/css/layout_233fcc4.css",
+            "type": "css"
+        },
+        "common:static/css/base.scss": {
+            "uri": "/ps/static/common/static/css/base_dd30224.css",
+            "type": "css"
+        },
+        "common:page/layout.tpl": {
+            "uri": "common/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "common:page/layout.js"
+            ]
+        },
+        "common:static/js/bigpipe.js": {
+            "uri": "/ps/static/common/static/js/bigpipe_30bbcb5.js",
+            "type": "js"
+        },
+        "common:static/js/exports.js": {
+            "uri": "/ps/static/common/static/js/exports_d41d8cd.js",
+            "type": "js"
+        },
+        "common:static/js/lazyload.js": {
+            "uri": "/ps/static/common/static/js/lazyload_b18b0cf.js",
+            "type": "js"
+        },
+        "common:static/js/mod.js": {
+            "uri": "/ps/static/common/static/js/mod_f76e019.js",
+            "type": "js"
+        },
+        "common:static/js/page.js": {
+            "uri": "/ps/static/common/static/js/page_22d9168.js",
+            "type": "js",
+            "deps": [
+                "common:static/js/bigpipe.js"
+            ]
+        },
+        "common:widget/lib/classList/classList.js": {
+            "uri": "/ps/static/common/widget/lib/classList/classList_b9dbed8.js",
+            "type": "js",
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/console-polyfill/console-polyfill.js": {
+            "uri": "/ps/static/common/widget/lib/console-polyfill/console-polyfill_e55e387.js",
+            "type": "js",
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/EventEmitter/EventEmitter.js": {
+            "uri": "/ps/static/common/widget/lib/EventEmitter/EventEmitter_7f9ceea.js",
+            "type": "js",
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/handlebars/handlebars.js": {
+            "uri": "/ps/static/common/widget/lib/handlebars/handlebars_74e01b2.js",
+            "type": "js",
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/jquery/cropper.min.js": {
+            "uri": "/ps/static/common/widget/lib/jquery/cropper.min_de4bbd4.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/jquery/jquery.js"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/jquery/jquery.js": {
+            "uri": "/ps/static/common/widget/lib/jquery/jquery_0369427.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/jquery/jquery.1.9.1.js",
+                "common:widget/lib/jquery/jquery.validate.js"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/jquery/jquery.1.9.1.js": {
+            "uri": "/ps/static/common/widget/lib/jquery/jquery.1.9.1_3769e21.js",
+            "type": "js",
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/jquery/jquery.validate.js": {
+            "uri": "/ps/static/common/widget/lib/jquery/jquery.validate_7db2077.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/jquery/jquery.1.9.1.js"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/jquery/jquery.placeholder.min.js": {
+            "uri": "/ps/static/common/widget/lib/jquery/jquery.placeholder.min_f561282.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/jquery/jquery.js"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/laydate/laydate.dev.js": {
+            "uri": "/ps/static/common/widget/lib/laydate/laydate.dev_ffd3a52.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/laydate/laydate.scss"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/laydate/laydate.scss": {
+            "uri": "/ps/static/common/widget/lib/laydate/laydate_2877c09.css",
+            "type": "css",
+            "pkg": "common:p2"
+        },
+        "common:widget/lib/laydate/laydate.js": {
+            "uri": "/ps/static/common/widget/lib/laydate/laydate_0fb2ce2.js",
+            "type": "js",
+            "deps": [
+                "common:widget/lib/laydate/laydate.scss"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:widget/lib/moment/moment.js": {
+            "uri": "/ps/static/common/widget/lib/moment/moment_f07ebda.js",
+            "type": "js",
+            "deps": [
+                "common:node_modules/moment/moment.js"
+            ],
+            "pkg": "common:p1"
+        },
+        "common:node_modules/moment/moment.js": {
+            "uri": "/ps/static/nm/moment/moment.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common:node_modules/moment/moment"
+            },
+            "deps": [
+                "./locale"
+            ],
+            "pkg": "common:p0"
+        }
+    },
+    "pkg": {
+        "common:p0": {
+            "uri": "/ps/static/pkg/common_nm_82a3c93.js",
+            "type": "js",
+            "has": [
+                "common:node_modules/html5shiv/dist/html5shiv.js",
+                "common:node_modules/es5-shim/es5-shim.js",
+                "common:node_modules/es5-shim/es5-sham.js",
+                "common:node_modules/matchmedia-polyfill/matchMedia.js",
+                "common:node_modules/process/browser.js",
+                "common:node_modules/bluebird/js/browser/bluebird.js",
+                "common:node_modules/moment/moment.js"
+            ],
+            "deps": [
+                "./locale"
+            ]
+        },
+        "common:p1": {
+            "uri": "/ps/static/pkg/common_wdg_e0c9781.js",
+            "type": "js",
+            "has": [
+                "common:widget/lib/classList/classList.js",
+                "common:widget/lib/console-polyfill/console-polyfill.js",
+                "common:widget/lib/EventEmitter/EventEmitter.js",
+                "common:widget/lib/handlebars/handlebars.js",
+                "common:widget/lib/jquery/jquery.1.9.1.js",
+                "common:widget/lib/jquery/jquery.validate.js",
+                "common:widget/lib/jquery/jquery.js",
+                "common:widget/lib/jquery/cropper.min.js",
+                "common:widget/lib/jquery/jquery.placeholder.min.js",
+                "common:widget/lib/laydate/laydate.dev.js",
+                "common:widget/lib/laydate/laydate.js",
+                "common:widget/lib/moment/moment.js"
+            ],
+            "deps": [
+                "common:widget/lib/laydate/laydate.scss",
+                "common:node_modules/moment/moment.js"
+            ]
+        },
+        "common:p2": {
+            "uri": "/ps/static/pkg/common_wdg_c61ea81.css",
+            "type": "css",
+            "has": [
+                "common:widget/lib/laydate/laydate.scss"
+            ]
+        }
+    }
+}

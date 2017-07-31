@@ -1,0 +1,12 @@
+{
+    "res": {
+        "demo:page/index/index.tpl": {
+            "uri": "demo/page/index/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        }
+    },
+    "pkg": {}
+}
